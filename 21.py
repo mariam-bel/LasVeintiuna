@@ -34,7 +34,7 @@ def llamarBaraja():
     for i in range(4):
         for j in range(1,11):
             if j==1:
-                carta = Carta(1,palos[i],"As")
+                carta = Carta(11,palos[i],"As")
             elif j<8:
                 carta = Carta(j,palos[i],j)
             else:
